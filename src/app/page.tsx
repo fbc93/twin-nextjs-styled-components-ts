@@ -1,7 +1,14 @@
 'use client'
-import Container from '@/components/common/container'
 import React from 'react'
+import Link from 'next/link'
 import tw from 'twin.macro'
+import Container from '@/components/common/container'
+import MainVisual from '@/components/main/mainVisual'
+import Product from '@/components/main/product'
+import Report from '@/components/main/report'
+import Whyus from '@/components/main/whyus'
+import Faq from '@/components/main/faq'
+import Contact from '@/components/main/contact'
 
 const styles = {
   container: ({ hasBackground }: { hasBackground: boolean }) => [
@@ -12,7 +19,12 @@ const styles = {
 
 const Home = () => (
   <Container>
-    <h1>Hello</h1>
+    <MainVisual />
+    <Product />
+    <Report />
+    <Whyus />
+    <Faq />
+    <Contact />
   </Container>
 )
 

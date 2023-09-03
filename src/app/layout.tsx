@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import GlobalStyles from '@/styles/GlobalStyles'
+import GlobalStyles from '@/styles/common/GlobalStyles'
 import StyledComponentsRegistry from '@/lib/registry'
 
 export const metadata: Metadata = {
